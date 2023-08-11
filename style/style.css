@@ -82,6 +82,7 @@ body {
 .buttons-section-one {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10%;
     width: 30%;
     height: 4rem;
@@ -162,6 +163,7 @@ body {
 .workflow-containers {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     width: 70%;
     gap: 4%;
     margin-bottom: 7rem;
@@ -190,6 +192,7 @@ body {
     padding: 0rem 12rem;
     margin-bottom: 10rem;
     display: flex;
+    flex-wrap: wrap;
     gap: 2%;
     justify-content: space-evenly;
     align-items: center;
