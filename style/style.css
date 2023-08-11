@@ -1,0 +1,235 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* Colors */
+
+:root {
+    /* Primary */
+
+    --Strong_Cyan: hsl(171, 66%, 44%);
+    --Light_Blue: hsl(233, 100%, 69%);
+
+    /* Neutral */
+
+    --Dark_Grayish_Blue: hsl(210, 10%, 33%);
+    --Grayish_Blue: hsl(201, 11%, 66%);
+}
+
+
+/* General Styling */
+
+* {
+    font-size: 62.5%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.8rem;
+}
+
+/*  attribution*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* Styling */
+
+.section-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* start section one */
+
+.header-section {
+    background-image: url(../images/bg-header-desktop.png);
+    background-position: top;
+    background-size: cover;
+    padding-top: 10rem;
+    margin-bottom: 13rem;
+}
+
+.header-section>img {
+    margin-bottom: 4rem;
+}
+
+.main-par {
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.625);
+    margin-bottom: 2rem;
+}
+
+.sub-par {
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.625);
+    margin-bottom: 4rem;
+    width: 52ch;
+    text-align: center;
+}
+
+.buttons-section-one {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    width: 30%;
+    height: 4rem;
+    font-size: 1.8rem;
+}
+
+.button-left,
+.button-right {
+    width: 40%;
+    height: 100%;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.button-left {
+    background-color: var(--Strong_Cyan);
+}
+
+.button-right {
+    background-color: var(--Light_Blue);
+}
+
+/* end section one */
+/* start section two */
+.section-two {
+    margin-bottom: 12rem;
+}
+
+.main-heading-sec2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.container {
+    margin-top: 4rem;
+    display: flex;
+    width: 100%;
+    gap: 5%;
+}
+
+.container>img {
+    position: relative;
+    left: -35px;
+}
+
+.content-of-section {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sub-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.container-of-paragraphs .sub-par {
+    text-align: start;
+    width: 35ch;
+}
+
+/* end section two */
+/* start section three */
+
+.section-three>img {
+    margin: 6rem 0rem;
+}
+
+/* end section three */
+/* start section four */
+.workflow-containers {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    gap: 4%;
+    margin-bottom: 7rem;
+}
+
+.workflow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.workflow-container>h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 3rem 0rem;
+}
+
+.workflow-container>.sub-par{
+    width: 100%;
+}
+
+/* end section four */
+/* logos container */
+.logos{
+    padding: 0rem 12rem;
+    margin-bottom: 10rem;
+    display: flex;
+    gap: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logos>img{
+    width: 12rem;
+}
+/* end logos container */
+/* start section clipboard */
+.clipboard{
+    margin-bottom: 15rem;
+}
+/* end section clipboard */
+/* start footer */
+footer{
+    background-color: var(--Grayish_Blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+    padding: 3rem 11rem;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+
+}
+
+.social-icons{
+    flex-direction: row;
+    gap: 2rem;
+}
+/* end footer */
