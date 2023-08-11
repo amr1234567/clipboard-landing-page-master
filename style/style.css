@@ -58,9 +58,10 @@ body {
     background-size: cover;
     padding-top: 10rem;
     margin-bottom: 13rem;
+    width: 100%;
 }
-
-.header-section>img {
+.logo{
+    max-width: 8rem;
     margin-bottom: 4rem;
 }
 
@@ -75,7 +76,7 @@ body {
     font-size: 1.8rem;
     color: rgba(0, 0, 0, 0.625);
     margin-bottom: 4rem;
-    width: 52ch;
+    max-width: 52ch;
     text-align: center;
 }
 
@@ -99,6 +100,12 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    cursor: pointer;
+}
+
+.button-left:hover,
+.button-right:hover{
+    opacity: 0.7;
 }
 
 .button-left {
@@ -148,7 +155,7 @@ body {
 
 .container-of-paragraphs .sub-par {
     text-align: start;
-    width: 35ch;
+    max-width: 35ch;
 }
 
 /* end section two */
@@ -164,7 +171,7 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width: 70%;
+    max-width: 70%;
     gap: 4%;
     margin-bottom: 7rem;
 }
@@ -173,7 +180,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 33%;
+    max-width: 33%;
 }
 
 .workflow-container>h3 {
@@ -199,7 +206,7 @@ body {
 }
 
 .logos>img{
-    width: 12rem;
+    max-width: 12rem;
 }
 /* end logos container */
 /* start section clipboard */
@@ -223,6 +230,10 @@ footer a{
     color: black;
 }
 
+footer a:hover{
+    color: var(--Strong_Cyan);
+}
+
 footer div {
     display: flex;
     flex-direction: column;
@@ -234,5 +245,12 @@ footer div {
 .social-icons{
     flex-direction: row;
     gap: 2rem;
+}
+.social-icons a svg{
+    width: 3rem;
+    height: 3rem;
+}
+.social-icons a svg:hover {
+    color: var(--Strong_Cyan);
 }
 /* end footer */

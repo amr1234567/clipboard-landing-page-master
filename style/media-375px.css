@@ -1,0 +1,71 @@
+body {
+    text-align: center !important;
+}
+
+.header-section {
+    background-image: url(../images/bg-header-mobile.png);
+}
+
+.logo {
+    width: 5rem;
+}
+
+.main-par {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.625);
+    margin-bottom: 1rem;
+}
+
+.buttons-section-one {
+    width: 100%;
+}
+
+.button-left,
+.button-right {
+    width: 80%;
+    max-width: none;
+    margin: 1rem auto;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.container>img {
+    position: static;
+}
+
+.section-three>img{
+    width: 100%;
+}
+
+footer{
+    flex-direction: column;
+}
+.sub-par {
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.625);
+    margin-bottom: 4rem;
+    max-width: none;
+    width: 95%;
+    margin: auto auto;
+    text-align: center;
+}
+.workflow-containers{
+    margin-top: 4rem;
+}
+
+.workflow-container{
+    width: 90%;
+    max-width: none;
+    margin: auto auto;
+}
+
+.logos{
+    flex-direction: column;
+    padding: 0rem;
+}
+.logos>img{
+    margin-bottom: 4rem;
+}
